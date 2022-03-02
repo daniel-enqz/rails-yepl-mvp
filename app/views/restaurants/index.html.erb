@@ -1,7 +1,9 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Restaurants</h1>
-
+<br>
+<%= link_to 'New Restaurant', new_restaurant_path, class: "btn btn-dark" %>
+<hr>
 <table>
   <thead>
     <tr>
@@ -27,7 +29,3 @@
     <% end %>
   </tbody>
 </table>
-
-<br>
-
-<%= link_to 'New Restaurant', new_restaurant_path %>
