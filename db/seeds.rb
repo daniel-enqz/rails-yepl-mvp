@@ -9,12 +9,10 @@ puts 'Cleaning database...'
 Restaurant.destroy_all
 
 puts 'Creating restaurants...'
-
-dishoom = { name: 'Dishoom', address: '7 Boundary St, London E2 7JE', phone_number: '5521529085',
-            category: %w[chinese italian japanese french belgian].sample }
-
-[dishoom, pizza_east].each do |attributes|
-  restaurant = Restaurant.create!(attributes)
-  puts "Created #{restaurant.name}"
+20.times do
+  restaurant = { name: Faker::Restaurant.name, address: Faker::Address.full_address, phone_number: '5521529085',
+                 category: %w[chinese italian japanese french belgian].sample }
+  Restaurant.create!(restaurant)
+  puts 'Created!'
+  puts 'Finished!'
 end
-puts 'Finished!'
