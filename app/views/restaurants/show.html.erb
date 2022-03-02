@@ -21,21 +21,26 @@
   <%= @restaurant.category %>
 </p>
 
+ <strong>Reviews:</strong>
+
 <ul class="list-group">
   <% @restaurant.reviews.each do |review| %>
     <li class="list-group-item"><%= review.content %></li>
   <% end %>
 </ul>
-
-
+<br>
+<hr>
+<br>
+<h2>Submit a Review for this restaurant</h2>
 <%# FORM TO SUBMIT REVIEW %>
+
 <%= simple_form_for [ @restaurant, @review ] do |f| %>
   <%= f.input :rating %>
   <%= f.input :content %>
   <%= f.submit "Submit review", class: "btn btn-primary" %>
 <% end %>
 
-
+<br>
 
 <%# link_to 'Edit', edit_restaurant_path(@restaurant) | %>
-<%= link_to 'Back', restaurants_path %>
+<%= link_to 'Back', restaurants_path, class: "btn btn-secondary" %>
