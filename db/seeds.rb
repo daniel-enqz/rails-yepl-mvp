@@ -9,6 +9,21 @@ puts 'Cleaning database...'
 Restaurant.destroy_all
 
 puts 'Creating restaurants...'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 20.times do
   restaurant = { name: Faker::Restaurant.name, address: Faker::Address.full_address, phone_number: '5521529085',
                  category: %w[chinese italian japanese french belgian].sample }
