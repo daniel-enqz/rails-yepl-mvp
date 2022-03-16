@@ -1,4 +1,4 @@
-# AIRBNB FLATS HOMEPAGE BUILD WITH RAILS
+# Two-model Rails app with a restaurant and anonymus reviews 
 
 ![image](https://user-images.githubusercontent.com/72522628/158302107-1517f956-c04b-4cb0-ac59-4a1cae922b2f.png)
 
