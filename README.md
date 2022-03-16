@@ -1,4 +1,6 @@
 # Two-model Rails app with a restaurant and anonymus reviews 
+## MAIN FEATURES
+> People can create restaurants(name, address) and other users can review them (rating, and review)
 
 ![image](https://user-images.githubusercontent.com/72522628/158514079-9f566523-d719-4149-a03b-6e58f7dc174d.png)
 ![image](https://user-images.githubusercontent.com/72522628/158514047-c1529922-4424-4512-b371-fda794ee754f.png)
