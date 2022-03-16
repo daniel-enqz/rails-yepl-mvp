@@ -1,7 +1,9 @@
 # Two-model Rails app with a restaurant and anonymus reviews 
+## MAIN FEATURES
+> People can create restaurants(name, address) and other users can review them (rating, and review)
 
-![image](https://user-images.githubusercontent.com/72522628/158302107-1517f956-c04b-4cb0-ac59-4a1cae922b2f.png)
-
+![image](https://user-images.githubusercontent.com/72522628/158514079-9f566523-d719-4149-a03b-6e58f7dc174d.png)
+![image](https://user-images.githubusercontent.com/72522628/158514047-c1529922-4424-4512-b371-fda794ee754f.png)
 
 ### CHECK NEXT STEPS TO DEPLOY
 
@@ -13,8 +15,8 @@
 ## Setup
 
 ```shell
- git clone git@github.com:daniel-enqz/rails-simple-airbnb.git
- cd rails-simple-airbnb
+ git clone git@github.com:daniel-enqz/rails-yepl-mvp.git
+ cd rails-yepl-mvp
  rails db:create db:migrate db:seed:replant
  bundle install
  yarn install
